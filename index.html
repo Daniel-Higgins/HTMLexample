@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+    <title>Main Page</title>
+    <style>
+        a:link {
+        color: white;
+        }
+        a:visited{
+            color:snow;
+        }
+         footer{
+         padding: 1px;
+    color: white;
+    background-color: red;
+     }
+    </style>
+    <link rel="shortcut icon" type="image/x-icon" href="fire.img">
+   
+</head>
+<body>
+    <header>
+    <div style="background-color:red;color:white;padding:5px;">
+        <center>Welcome to The Fire $urvey</center>
+    </div>
+    <div style="background-color:Black;color:white;padding:10px;">
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Categories<span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Video Games</a></li>
+                <li><a href="#">Food/Restaurants</a></li>
+                <li><a href="#">Children</a></li>
+                <li><a href="#">Motorvehicles</a></li>
+                <li><a href="#">Hair/Beauty</a></li>
+                <li><a href="#">Search Poll</a></li>
+                
+            </ul>
+            <a href="index.html">Home</a> | <a href="login.html">Login</a> | <a href="signup.html">Sign up</a> | <a href="profile.html">Profile</a> | <a href="createpoll.html">Create Poll</a> | <a href="">Polls Trending</a>
+        </div>
+    </div>
+        </header>
+    
+
+    <center>
+        <h1>Poll Name</h1>
+        <p>session.name</p>
+        <h2>Question</h2>
+        <p>session.question?</p>
+        <br>
+        <form controller="Polldata" action="">
+        <p> session.choice1  <input type = "radio" name="options" value="c1" checked/></p>
+		<p> session.choice2  <input type = "radio" name="options" value="c2"/></p>
+		<p> session.choice3  <input type = "radio" name="options" value="c3"/></p>
+		 
+            <input type =submit name="submit" value="Submit" /> </form>
+        
+    </center>
+    <br> <br> <br><br>
+    
+    <center>
+        <h1>Poll Name2</h1>
+        <p>session.name2</p>
+        <h2>Question2</h2>
+        <p>session.question?2</p>
+        <br>
+        <form controller="Polldata" action="">
+        <p> session.choice1  <input type = "radio" name="options" value="c1" checked/></p>
+		<p> session.choice2  <input type = "radio" name="options" value="c2"/></p>
+		<p> session.choice3  <input type = "radio" name="options" value="c3"/></p>
+		 
+            <input type =submit name="submit" value="Submit" /> </form>
+        
+    </center>
+
+    <br>
+    <br>
+    <footer> 
+            <h4>Web page 2017: The Fire $urvey</h4>
+        </footer>
+</body>
+</html>
